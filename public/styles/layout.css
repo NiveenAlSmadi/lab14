@@ -1,0 +1,122 @@
+
+/* @media only screen and (max-width: 600px) { */
+    main{
+        display: flexbox;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    body {
+            background-color: #6d6b6b;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    header {
+            color: rgb(10, 10, 10);
+            
+        
+        }
+
+        main{
+            width: 90%;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    img {
+            border: rgb(10, 10, 10) solid 4px; 
+             margin: 10px;
+    
+        }
+    h1{
+        text-align: center;
+    }
+    .data{
+        margin: 10px;
+        width: 90%;
+        padding: 20px;
+        display: inline-block;
+        overflow:  hidden;
+        text-align: center;
+        border: 3px solid rgb(238, 234, 234);
+        background-color:rgb(7, 7, 7);
+        border-radius: 10px;
+    
+    }
+    .data h2 {
+    color: aliceblue;
+    font-size: 10px;
+    padding-bottom: 10px;
+    }
+    .data h3{
+        font-weight: bold;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+.data p{
+    font-weight: bold;
+        font-size: 10px;
+        padding-bottom: 10px; 
+}
+.data1{
+    padding: 40px;
+}
+    .API{
+      
+            line-height: 60px;
+            margin: 70px;
+            width: 33%;
+            height: auto;
+            background-color:  #6d6b6b;
+            box-sizing: border-box;
+            color: rgb(238, 234, 234);
+            font-size: large;
+            font-weight: bold;
+            padding: 0px;
+            margin-left: 75px;
+            margin-top: 30px;
+    }
+    #add{
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+        margin-top: 10px;
+        margin-bottom:30px;
+    }
+    .form{
+        margin-bottom: 0mm;
+
+
+    }
+    label{
+        color: white;
+        padding: px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .text{ 
+        height: 100px;
+
+
+    }
+    #view{
+        margin-top: 10px;
+        margin-bottom:30px;
+          border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+    }
+    #updateBtn{
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 15px;
+        color: lavender;
+        background-color: black;
+        margin-top: 10px;
+        margin-bottom:30px;
+    }

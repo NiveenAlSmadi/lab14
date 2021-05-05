@@ -1,0 +1,32 @@
+{
+  "name": "book_app",
+  "version": "1.0.0",
+  "description": "this repo for week3 code301",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiveenAlSmadi/book_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiveenAlSmadi/book_app/issues"
+  },
+  "homepage": "https://github.com/NiveenAlSmadi/book_app#readme",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "pg": "^8.6.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {}
+}

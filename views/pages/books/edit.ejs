@@ -1,0 +1,12 @@
+  <button id='updateBtn'>Update</button> 
+ <section id='updateForm'>
+   <h3>Update Book Form</h3>
+   <form action="/updateBook/<%=book.id%>?_method=put" method="post">
+    <input name="title" value="<%= book.title %>" type="text">
+    <input name="author" value="<%= book.author %>" type="text">
+    <input name="img" value="<%= book.img %>" type="hidden">
+    <input name="isbn" value="<%= book.isbn %>" type="text">
+    <input name="description" value="<%= book.description %>" type="text">
+   
+    <button  type="submit">Update </button>
+    </form>

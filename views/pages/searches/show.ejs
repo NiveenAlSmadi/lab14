@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+    <title>Show</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1>BOOK App</h1>
+            <ul class="ul">
+                <li><a href="/"> Home</a></li>
+                <li><a href="/searches/new">Search Book</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class=data>
+    <%  bookArray.forEach(book=>{ %>
+        <div class =data1>
+            <img src=<%= book.img %>>
+            <h2><%= book.title %></h2>
+            <h3><%= book.author %></h3>
+            <p><%= book.description %></p>
+            <form action='/books' method="POST">
+                <input name="title" value="<%= book.title %>" type="hidden">
+                <input name="author" value="<%= book.author %>" type="hidden">
+                <input name="description" value="<%= book.description %>" type="hidden">
+                <input name="img" value="<%= book.img %>" type="hidden">
+                <input name="isbn" value="<%= book.isbn %>" type="hidden">
+                <button id="add" type="submit">Select This Book</button>
+            </form>
+        </div>
+    <% }) %>
+
+</div>
+</main>
+<footer>
+    <p> &copy All rights reserved NIVEEN 2021</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+    @media only screen and (max-width: 600px) {
+        main{
+            display: flexbox;
+            text-align: center;
+            justify-content: center;
+        
+        }
+        body {
+                background-color: #6d6b6b;
+                font-size: medium;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        header {
+                color: rgb(10, 10, 10);
+                
+            
+            }
+        img {
+                border: white solid 2px; 
+                 margin: 10px;
+        
+            }
+        h1{
+            text-align: center;
+        }
+        .data{
+            margin: 10px;
+            width: 90%;
+            padding: 10px;
+            display: inline-block;
+            overflow:  hidden;
+            text-align: center;
+            border: 3px solid rgb(238, 234, 234);
+            background-color:rgb(38, 128, 134);
+            border-radius: 10px;
+        
+        }
+        .data h2 {
+        color: aliceblue;
+        }
+        .data h3{
+            font-weight: bold;
+        }
+        p{
+                display: inline-block;
+                overflow:  hidden;
+                text-align: center;   
+            }
+        
+        .total{
+        font-size: x-large;
+         color: blanchedalmond;
+         padding: 0px;
+         margin-top: auto;
+        }}

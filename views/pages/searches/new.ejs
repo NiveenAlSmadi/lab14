@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="../styles/layout.css">
+   
+    <title>search</title>
+</head>
+<header>
+    <nav class="nav">
+        <h1>BOOK App</h1>
+        <ul class="ul">
+            <li><a href="/"> Home</a></li>
+            <li><a href="/searches/new">Search Book</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+ 
+    <form action="/searches" method="POST" class=form >
+        <label for="search">Enter a Title or Author </label><br>
+        <input id="text" type="text" name="search" required><br>
+       
+        <label for="title">Title</label>
+        <input type="radio"  name="searchBy" value="intitle">
+    
+        <label for="author">Author</label>
+        <input type="radio" name="searchBy"  value="inauthor"><br>
+    
+        <button class=API >Search the Google Book API</button>
+    
+        </form>
+
+        <footer>
+            <p> &copy All rights reserved NIVEEN 2021</p>
+        </footer>
+</body>
+</html>
+
+
